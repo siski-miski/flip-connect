@@ -41,7 +41,7 @@ services:
       args:
         VITE_API_URL: /api
     ports:
-      - "8003:80"
+      - "8002:80"
     depends_on:
       backend:
         condition: service_started
