@@ -23,7 +23,7 @@ services:
       ACCESS_TOKEN_EXPIRE_MINUTES: ${ACCESS_TOKEN_EXPIRE_MINUTES:-15}
       REFRESH_TOKEN_EXPIRE_DAYS: ${REFRESH_TOKEN_EXPIRE_DAYS:-7}
       CORS_ORIGINS: ${CORS_ORIGINS:-http://localhost:5173,http://localhost:3000}
-      SIGNUP_ALLOWED: ${SIGNUP_ALLOWED:-false}
+      SIGNUP_ALLOWED: ${SIGNUP_ALLOWED:-true}
       SIGNUP_BLOCK_MESSAGE: ${SIGNUP_BLOCK_MESSAGE:-Cant create new account for the moment please reach us via whatsapp message}
       ADMIN_EMAIL: ${ADMIN_EMAIL:?ADMIN_EMAIL is required}
       ADMIN_PASSWORD: ${ADMIN_PASSWORD:?ADMIN_PASSWORD is required}
